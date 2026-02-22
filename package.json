@@ -7,8 +7,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env servidor.js",
-    "dev": "node --env-file=.env --watch servidor.js",
+    "start": "node --env-file=.pro.env servidor.js",
+    "dev": "node --env-file=.des.env --watch servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
